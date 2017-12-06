@@ -10,7 +10,7 @@ namespace TestCalc
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your Name: ");
+            Console.WriteLine("Enter your Name:");
             string name = Console.ReadLine();
             Console.WriteLine("Hello " + name);
         }
