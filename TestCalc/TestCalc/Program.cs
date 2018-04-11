@@ -13,7 +13,9 @@ namespace TestCalc
             Console.WriteLine("Welcome!");
             Console.WriteLine("Enter your Name:");
             string name = Console.ReadLine();
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Hello " + name);
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
